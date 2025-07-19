@@ -16,9 +16,9 @@ const String OTHER_CALLIBRATION_STRING = "X1Il^qpyi";
 const uint16_t NUM_TZ = 3;
 const uint16_t NUM_CHARS = 14;
 
-const int16_t relTzHour[] = {0, 3, 12};
-const int16_t relTzMin[] = {0, 0, 30};
-const String tzName[] = {"PST", "EST", "IST"};
+const int16_t relTzHour[] = {0, 12, 16};
+const int16_t relTzMin[] = {0, 30, 0};
+const String tzName[] = {"PST", "IST", "JST"};
 
 struct Position {
     int16_t x1, y1;
