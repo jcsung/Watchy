@@ -19,7 +19,7 @@ void WatchyVanilla::displayLogic() {
     drawTime();
     drawDate();
     drawSteps();
-    drawWeather();
+    // drawWeather();
 }
 
 void WatchyVanilla::cacheBatteryPercentage() {

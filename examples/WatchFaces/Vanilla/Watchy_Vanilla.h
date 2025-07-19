@@ -13,12 +13,12 @@ const float BATTERY_VOLTAGE_MIN = 3.48;
 const float BATTERY_VOLTAGE_MAX = 3.91;
 const String TIME_CALLIBRATION_STRING = "88:888";
 const String OTHER_CALLIBRATION_STRING = "X1Il^qpyi";
-const uint16_t NUM_TZ = 3;
+const uint16_t NUM_TZ = 4;
 const uint16_t NUM_CHARS = 14;
 
-const int16_t relTzHour[] = {0, 12, 16};
-const int16_t relTzMin[] = {0, 30, 0};
-const String tzName[] = {"PST", "IST", "JST"};
+const int16_t relTzHour[] = {0, 12, 15, 16};
+const int16_t relTzMin[] = {0, 30, 0, 0};
+const String tzName[] = {" PST", " IST", "WITA", " JST"};
 
 struct Position {
     int16_t x1, y1;
